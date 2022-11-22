@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import TodoPromption from './JS/todoPromption';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TodoDisplay from './JS/todoDisplay';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TodoPromption/>
+    <App/>
   </React.StrictMode>
 );
-
-root.render(TodoPromption());
 
 
